@@ -33,7 +33,7 @@ function updateMemberCount() {
 // WhatsApp join function
 function joinWhatsApp() {
     // Substitua pelo seu link real do WhatsApp
-    const whatsappLink = 'https://wa.me/5511999999999?text=Quero%20participar%20do%20grupo%20Promo%20Home';
+    const whatsappLink = 'https://chat.whatsapp.com/B8Y3W6MYmEl9TT4BCPs8iS';
     window.open(whatsappLink, '_blank');
     
     // Analytics tracking (opcional)
