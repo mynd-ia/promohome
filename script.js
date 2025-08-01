@@ -477,19 +477,6 @@ function debounce(func, wait) {
     };
 }
 
-// Otimizar scroll events
-window.addEventListener('scroll', debounce(() => {
-    // Código otimizado para scroll
-    const scrolled = window.pageYOffset;
-    const rate = scrolled * -0.5;
-    
-    // Parallax sutil no hero
-    const hero = document.querySelector('.hero');
-    if (hero && scrolled < hero.offsetHeight) {
-        hero.style.transform = `translateY(${rate}px)`;
-    }
-}, 10));
-
 // ==============================================
 // FUNCIONALIDADES EXTRAS PARA CONVERSÃO
 // ==============================================
