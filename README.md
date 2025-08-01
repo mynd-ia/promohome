@@ -1,2 +1,0 @@
-# promohome
-https://promohome.club
